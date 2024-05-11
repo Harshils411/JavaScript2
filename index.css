@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(53, 57, 53);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(9, 9, 9, 0.901);
+
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    margin-bottom:0px;
+    background-color: rgb(43, 42, 42);
+    background-image: url(https://www.wsupercars.com/wallpapers-regular/Land-Rover/2022-Land-Rover-Defender-V8-011-1080.jpg);
+   
+}
+body{
+    overflow-x: hidden;
+}
+.page2 img{
+    height: 100%;
+    width:0%;
+    object-fit: cover;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.page1 h3{
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 20px;
+font-size: 2.5vw;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* position: fixed; */
+}
+.page1 h1{
+    padding: 0px;
+    font-size: 42vw;
+    font-style: normal;
+    font-weight: 50;
+    position: absolute;
+    opacity: 100%;
+    -webkit-text-fill-color: transparent;
+    outline: whitesmoke;
+    -webkit-text-stroke-width: 1vh;
+    -webkit-text-stroke-color: rgb(16, 11, 11);
+    outline: whitesmoke;
+    color: whitesmoke;
+    background-image: url(https://www.wsupercars.com/wallpapers-regular/Land-Rover/2022-Land-Rover-Defender-V8-001-1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+}
+
+.page3 h2{
+    font-size: 9vw;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top:45%;
+}
